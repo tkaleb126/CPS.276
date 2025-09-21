@@ -31,7 +31,7 @@
             <div class="col-md-4">
                 <label for="state" class="form-label">State</label>
                 <select id="state" class="form-select">
-                <option>Ohio</option>
+                <option>Cali</option>
                 <option>Florida</option>
                 <option selected>Michigan</option>
                 <option>Arizona</option>
