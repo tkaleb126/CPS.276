@@ -24,7 +24,7 @@ class listFilesProc extends PdoMethods{
     private function createList($records){
         $list = '<ul>';
         foreach ($records as $row){
-            $list .= "<li><a href=\"files/{$row['filelocation']}\">{$row['filename']}</a></li>";
+            $list .= "<li><a href=\"files/{$row['filelocation']}\" target = \"_blank\">{$row['filename']}</a></li>";
         }
         $list .= '</ul>';
         return $list;
