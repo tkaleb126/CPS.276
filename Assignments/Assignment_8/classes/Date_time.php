@@ -77,7 +77,7 @@ class Date_Time extends PdoMethods{
         }
         else{
             $pdo = null;
-            return '';
+            return 'No notes found for the date range selected';
         }
 
 
