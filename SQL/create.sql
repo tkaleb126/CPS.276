@@ -12,11 +12,11 @@
 ########################
 # Create customer table
 ########################
-CREATE TABLE file
+CREATE TABLE notes
 (
   id      int       NOT NULL AUTO_INCREMENT,
-  filename        char(50) NULL ,
-  filelocation    char(50)  NULL ,
+  timestamp       int NULL ,
+  note    char(200)  NULL ,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
