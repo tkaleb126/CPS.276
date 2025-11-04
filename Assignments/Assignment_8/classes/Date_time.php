@@ -20,7 +20,7 @@ class Date_Time extends PdoMethods{
         }
     }
 
-
+    //Uploades the input to the Data table
     private function uploadNote(){
 
         $pdo = new PdoMethods();
