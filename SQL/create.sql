@@ -22,3 +22,5 @@ CREATE TABLE user
   PRIMARY KEY (id)
 ) ENGINE=InnoDB;
 
+<label for="password2">Confirm Password</label>
+    <input type="text" class="form-control" id="password2" name="password2" value="Pass$or1">
