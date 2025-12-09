@@ -27,23 +27,15 @@ if (isset($_GET['page'])) {
         require_once('views/welcome.php');
         $content = init();
     }
-    
     else{
-        //header("Location: index.php?page=login");
         require_once('views/loginForm.php');
         $content = init();
     }
 }
 elseif($status === "none") {
     header("Location: index.php?page=login");
-    //require_once('views/loginForm.php');
-    //$content = init();
+    
 }
-
-//else {
-  //  header('location: '.$path);
-//}
-
 
 
 
